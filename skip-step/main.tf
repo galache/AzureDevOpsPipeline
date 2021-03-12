@@ -11,5 +11,5 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "resourcegroup-test-tbd-4"
-  location = "westeurope"
+  location = "northeurope"
 }
